@@ -25,7 +25,7 @@ function App() {
       console.log(error);
     })
     
-  }, [count]); // Pass [count] as the dependency array
+  }, [count]); // Pass [count] as the dependency 
 
   return (
     <div className="App">
