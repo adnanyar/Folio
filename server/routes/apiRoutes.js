@@ -10,5 +10,4 @@ router.get('/user/view', userApiController.viewUser);
 router.get('/user/store', userApiController.storeUser);
 router.get('/user/update/:id', userApiController.updateUser);
 
-
-module.exports =router;     
+module.exports=router;     
